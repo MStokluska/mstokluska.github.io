@@ -1,0 +1,118 @@
+body {
+	background-image: url(../images/success.jpg);
+	background-repeat:no-repeat;
+	height:100%;
+	background-size: cover;}
+.nav{
+	width:100%;
+	height: auto;
+	margin:0;
+	background: transparent;
+	padding:0px;}
+.nav-link{
+	text-align: center;
+	color:black;}
+nav li a:hover{
+	background:linear-gradient(lightblue 5%, transparent);
+	color:black;}
+nav li a{
+	width:100%;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:0em;
+	padding-right:0em;
+	color:yellow;
+	display:inline-block;}
+.mainContainer {
+	width:80%;
+	maring:auto;
+	margin-left:10%;
+    background:linear-gradient( transparent  , lightblue 10%);
+	margin-top:1%;}
+h1 {
+	text-align: center;	}
+@media (max-width: 992px){
+	img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;}
+	.nav{
+	width:100%;
+	height: auto;
+	margin:0;
+	background: linear-gradient(to top , lightblue 10%, transparent);}
+	}
+@media (max-width:575px){
+.sometimesHidden {
+	display:none;}}
+#mainText {
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+	font-family: futura;
+	font-style:italic;
+	background: -webkit-linear-gradient(white 5%,black 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size:4em;}
+figcaption {
+	font-size:0.8em;
+	text-align: center;
+	font-style:italic;}
+h2 {
+	padding:0.5em;
+	text-align: center;}
+.indent {
+	text-indent: 3em;}
+.justify {
+	text-align: justify;}
+.img-center {
+	margin:auto;}
+.topContainer{
+width:80%;
+maring:auto;
+margin-left:10%;}
+.row{
+	padding:1em;}
+#logo {
+	font-size:1.5em;
+	padding-top:0.5em;
+	font-family: futura;
+	font-style:italic}
+.signature {
+	text-align:right;}
+.backToTop {
+		text-align: center;}
+
+.mainTab {
+	text-align: center;}
+.sometimesShow {
+	padding:50px;}
+.mainContainerTransparent {
+	height:300px;}
+#journey {
+	text-align: center;
+	margin-top: 10%;
+	font-family: futura;
+	font-style:italic;
+	background: -webkit-linear-gradient(white 5%,black 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size:3em;
+	letter-spacing: 8px;}
+#success{
+	text-align: center;
+	margin: auto;
+	margin-top: 1%;
+	font-family: futura;
+	font-style:italic;
+	background: -webkit-linear-gradient(white 5%,black 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size:3em;
+    letter-spacing: 8px;
+	padding-bottom:2em;}
+
+.choosingCareer {
+	margin-bottom:20px;
+}
